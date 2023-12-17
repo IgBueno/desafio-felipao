@@ -1,5 +1,5 @@
 let nomeHeroi = "Igor Do javinha";
-let quantidadeExp = 6000;
+let quantidadeExp = 15;
 let nivel;
 
 if(quantidadeExp < 1000){
@@ -17,7 +17,7 @@ else if (quantidadeExp > 1000 && quantidadeExp < 2000){
     nivel ="Ascendente";
 }else if (quantidadeExp > 9000 && quantidadeExp < 10000){
     nivel ="Imortal";
-}else if (quantidadeExp >= 10000){
+}else {
     nivel ="Radiante";
 }
                          
